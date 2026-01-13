@@ -7,7 +7,7 @@ logger = logging.getLogger("CaReAQA")
 def main():
     repo_id = "tsnngw/CaReAQA"
     model_filename = "model.pt"
-    audio_path = "/home/twang/cross_modal_alignment/datasets/KAUH/AudioFiles/BP54_heart failure,Crep,P R L ,73,F.wav"
+    audio_path = "./KAUH/AudioFiles/BP54_heart failure,Crep,P R L ,73,F.wav"
     question = "Where were the abnormal sounds detected?"
     #audio_path = "/home/twang/circor/69155_PV.wav"
     #question = "Where is the murmur most audible?"
