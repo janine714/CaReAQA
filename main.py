@@ -39,7 +39,7 @@ def parse_argument():
     parser.add_argument("--dataset_path", type=str, default="/home/twang/audio", help="Path to audio dataset")
     parser.add_argument("--batch_size", type=int, default=64)
     parser.add_argument("--epochs", type=int, default=50)
-    parser.add_argument("--opera_checkpoint_path", type=str, default="/home/twang/encoder-operaCE.ckpt")  
+    parser.add_argument("--opera_checkpoint_path", type=str, default="./encoder-operaCE.ckpt")  
     parser.add_argument("--lr", type=float, default=2e-5)
     parser.add_argument("--warmup_steps", type=int, default=400)
     parser.add_argument("--seed", type=int, default=0)
