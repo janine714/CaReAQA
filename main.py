@@ -16,7 +16,7 @@ from dataloader import AudioQADataset
 from train import train_model
 from huggingface_hub import login
 
-login("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")
+login("")
 
 def set_random_seeds(seed=0):
     """Set random seeds for reproducibility."""
