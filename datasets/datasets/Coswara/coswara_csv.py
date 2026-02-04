@@ -1,9 +1,9 @@
 import pandas as pd
 
 
-input_csv_path = '/Users/wangzaining/Desktop/combined_data.csv' 
-output_smoker_csv_path = '/Users/wangzaining/Desktop/smoker_classification.csv' 
-output_gender_csv_path = '/Users/wangzaining/Desktop/gender_classification.csv' 
+input_csv_path = './combined_data.csv' 
+output_smoker_csv_path = './smoker_classification.csv' 
+output_gender_csv_path = './gender_classification.csv' 
 
 metadata = pd.read_csv(input_csv_path)
 
