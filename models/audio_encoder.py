@@ -1,13 +1,13 @@
 from transformers import ASTModel, ASTFeatureExtractor
 import sys
-sys.path.append('/home/twang/OPERA/src')
+sys.path.append('/path/to/OPERA/src')
 import os
 import numpy as np
 import torch
-from model.models_mae import mae_vit_small  # OPERA's model import, no change needed
-from model.models_cola import Cola  # OPERA's model import, no change needed
-from huggingface_hub.file_download import hf_hub_download  # No change needed
-from util import get_split_signal_librosa, get_entire_signal_librosa  # OPERA's util import, no change needed
+from model.models_mae import mae_vit_small  # OPERA's model import
+from model.models_cola import Cola  # OPERA's model import
+from huggingface_hub.file_download import hf_hub_download  
+from util import get_split_signal_librosa, get_entire_signal_librosa  # OPERA's util import
 import soundfile as sf
 from transformers import ClapConfig, ClapModel
 
