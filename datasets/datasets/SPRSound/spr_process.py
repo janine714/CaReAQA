@@ -3,10 +3,10 @@ import pandas as pd
 import json
 from collections import Counter
 
-audio_files_dir = '/Users/wangzaining/Desktop/Classification/train_classification_wav'
-json_files_dir = '/Users/wangzaining/Desktop/Classification/train_classification_json'
-patient_summary_path = '/Users/wangzaining/Desktop/SPRSound_patient_summary.csv'
-output_dir = '/Users/wangzaining/Desktop/Classification/'
+audio_files_dir = './Classification/train_classification_wav'
+json_files_dir = './Classification/train_classification_json'
+patient_summary_path = './SPRSound_patient_summary.csv'
+output_dir = './Classification/'
 output_path = os.path.join(output_dir, 'metadata_train_classification.csv')
 
 patient_summary_df = pd.read_csv(patient_summary_path)
