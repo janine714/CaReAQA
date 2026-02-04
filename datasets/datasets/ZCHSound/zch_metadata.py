@@ -9,7 +9,7 @@ diagnosis_mapping = {
     'VSD': 'Ventricular septal defect'
 }
 
-base_dir = '/Users/wangzaining/Desktop/ZCHSound'
+base_dir = './ZCHSound'
 clean_details_path = os.path.join(base_dir, 'Clean Heartsound Data Details.csv')
 noise_details_path = os.path.join(base_dir, 'Noise Heartsound Data Details.csv')
 
